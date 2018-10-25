@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <!doctype html>
 <html>
 <head>
@@ -30,7 +32,7 @@ color:#fff;
 <div class="container-fluid"> 
  <div class="row-fluid"> 
   <div class="col-md-offset-4 col-md-4" id="box"> 
-   <h2>ĐĂNG NHẬP</h2> 
+   <h2>ÄÄNG NHáº¬P</h2> 
    <hr> 
    <form class="form-horizontal" id="login_form"> 
     <fieldset> 
@@ -48,8 +50,8 @@ color:#fff;
      </div> 
      <div class="form-group"> 
       <div class="col-md-12"> 
-       <button type="submit" class="btn btn-md btn-danger pull-right">Đăng nhập </button> 
-       <button  type="submit" class="btn btn-md btn-danger pull-left" ><a href="SignUp.html">Đăng Kí</a> </button> 
+       <button type="submit" class="btn btn-md btn-danger pull-right">ÄÄng nháº­p </button> 
+       <button  type="submit" class="btn btn-md btn-danger pull-left" ><a href="SignUp.html">ÄÄng KÃ­</a> </button> 
       </div> 
      </div> 
     </fieldset> 
