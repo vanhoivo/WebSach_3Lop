@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Reset */
+*{margin: 0; padding: 0;}
+
+body
+{
+	font-family: Arial, sans-serif;
+	background-color: #CCC;
+	color: #FFF;
+}
+
+.centerLayout
+{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.centerLayout .main
+{
+	clear: both;
+}
+
+header
+{
+	height: 75px;
+	background-color: #123;
+}
+
+nav
+{
+	line-height: 3;
+	overflow: auto;
+	
+	background-color: #0078D7;
+}
+
+nav li
+{
+	float: left;
+	
+	width: 150px;
+	list-style: none;
+}
+
+#sidebar
+{
+	width: 20%;
+	height: 300px;
+	float: left;
+	clear: left;
+	
+	background-color: #888;
+}
+
+#sidebar li
+{
+	list-style: none;
+}
+
+#content
+{
+	width: 60%;
+	height: 300px;
+	float: left;
+	
+	background-color: #789;
+}
+
+#right
+{
+	width: 20%;
+	height: 300px;
+	float: right;
+	
+	background-color: #888;
+}
+
+footer
+{
+	height: 50px;
+	clear: both;
+	
+	background-color: #0078D7;
+}
