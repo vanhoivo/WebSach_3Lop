@@ -4,7 +4,7 @@
 <html>
     <head>
             <meta charset="utf-8">
-            <title>Sign Up</title>
+            <title>Sign In</title>
             
             <!--Responsive-->
             <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,7 +26,7 @@
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
                 
             <!--Custom-->
-            <link rel="stylesheet" type="text/css" href="Styles_SignUp.css">
+            <link rel="stylesheet" type="text/css" href="Styles_SignIn.css">
             <script type="text/javascript" src=""></script>
             
             <script>
@@ -65,17 +65,20 @@
     <body class="text-center">
         <form class="form-signin border border-primary rounded">
             <img class="mb-4" src="Images/IMG_Company_Blur.png" alt="" width="50%" height="auto">
-            <h1 class="h3 mb-3 font-weight-normal" style="color: #C00000">Đăng kí tài khoản</h1>
+            <h1 class="h3 mb-3 font-weight-normal" style="color: #C00000">Đăng nhập tài khoản</h1>
             <label for="inputEmail" class="sr-only">Tên người dùng</label>
             <input type="email" id="inputEmail" class="form-control" placeholder="Tên người dùng" required autofocus>
+            <br />
             <label for="inputPassword" class="sr-only">Mật khẩu</label>
             <input type="password" id="inputPassword" class="form-control" placeholder="Mật khẩu" required>
-            <label for="inputPassword" class="sr-only">Nhập lại mật khẩu</label>
-            <input type="password" id="inputRePassword" class="form-control" placeholder="Nhập lại mật khẩu" required>
-            <br />
-            <button class="btn btn-lg btn-primary btn-block" type="submit">Đăng kí</button>
+            <a href="#" class="">Quên mật khẩu</a>
+            <div class="checkbox mb-3">
+                <br />
+                <label><input type="checkbox" value="remember-me" class="text-center"> Ghi nhớ</label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Đăng nhập</button>
             <hr />
-            <a href="SignIn.html">ĐĂNG NHẬP</a>
+            <a href="SignUp.html">ĐĂNG KÍ</a>
         </form>
     </body>
 </html>

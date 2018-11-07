@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/* Reset */
+*{margin: 0; padding: 0;}
+
+html
+{
+}
+
+body
+{
+	width: 100%;
+	min-height: 100%;
+	font-family: Arial, sans-serif;
+	background-color: #123;
+	/*color: #FFF;*/
+}
+
+header
+{
+	height: 60px;
+}
+
+.centerLayout
+{
+	min-height: 604.5px;
+}
+
+
+#left
+{
+	width: 15%;
+	height: 100%;
+	float: left;
+
+	position: fixed;
+	
+	background-color: #123;
+}
+
+
+#right
+{
+	width: 85%;
+	min-height: 604.5px;
+	float: right;
+
+	margin-bottom: 50px;
+	
+	background-color: white;
+}
+
+footer
+{
+	clear: both;
+	padding: 0px 16px;
+	
+	background-color: #0063B1;
+	color: white;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 50px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  line-height: 50px; /* Vertically center the text there */
+}
+
+legend.scheduler-border {
+    width:inherit; /* Or auto */
+    padding:0 10px; /* To give a bit of padding on the left and right */
+    border-bottom:none;
+}

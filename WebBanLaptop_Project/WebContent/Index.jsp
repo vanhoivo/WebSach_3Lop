@@ -1,428 +1,136 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
-<!doctype html>
+
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>PLH Store - Mua laptop online</title>
-	<link rel="stylesheet" href="Styles.css">
-	<link rel="shortcut icon" type="image/png" href="Images/IMG_Logo.png"/>
-</head>
+	<head>
+		<title>Homepage</title>
+		<meta charset="utf-8">
+		
+		<!--Responsive-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--Bootstrap CSS-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<!--jQuery-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!--Popper-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<!--Bootstrap JS-->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+		
+		<!--Icons-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		
+		<!--Custom-->
+		<link rel="stylesheet" type="text/css" href="Styles.css">
+		<script type="text/javascript" src="Scripts.js"></script>
+	</head>
+	
+	<body>	
+		<header>
+			<div class="centerLayout">
+				<!--
+				<img src="Images/IMG_Company.png" alt="Branch" style="width: 30%; height: auto;">
+				<input type="text" placeholder="Nhập laptop muốn tìm ...">
+				<button>Tìm kiếm</button>
+				<button>Giỏ hàng</button>
+				<button>Tài khoản</button>-->
+				
+				<nav class="navbar navbar-expand-lg navbar-light bg-white" style="height: 75px;">
+  <a class="navbar-brand" href="#" style="width: 30%"><img src="Images/IMG_Company.png" alt="Branch" style="width: 80%; height: auto;"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<body>
-	<div id="header">
-		<div id="logo">
-			<!--<img src="logo.png" width="90%">-->
-			<img src="Images/IMG_Company.png" width="70%" title="PLH Store - Mua laptop online">
-		</div>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Nhập laptop ..." aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Tìm kiếm</button>
+    </form>
+	  <ul class="navbar-nav ml-auto">
+		  <li style="width: 50px;"><a href="#"><i class="fas fa-user fa-lg"></i></a></li>
+		  <li style="width: 50px;"><a href="#"><i class="fas fa-bell fa-lg"></i></a></li>
+	  </ul>
+  </div>
+</nav>
+			</div>
+		</header>
 		
-		<div id="feature_top" style="float: left; height: 50px; width: 30%" align="center">
-			<input name="Subject" type="text" size="50"  placeholder="Nhập laptop bạn muốn tìm" style="position: relative; top: 22px; width: 200px; height: 30px;">
-			<!--<button title="Tìm kiếm"  style="height: 35px; background-color: #1F568B; color: white; position: relative;">Tìm kiếm</button>-->
-			<button class="btn danger" title="Tìm kiếm">Tìm kiếm</button>
-			<button class="btn danger" title="Giỏ hàng" style="margin-left: 30px;">Giỏ hàng</button>
+		<nav class="navbar navbar-expand-md bg-primary navbar-dark sticky-top" style="padding-left: 0; padding-right: 0;">
+			<div class="centerLayout">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item active"><a class="nav-link" href="#">TRANG CHỦ</a></li>
+						<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">SẢN PHẨM</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">ASUS</a>
+								<a class="dropdown-item" href="#">Dell</a>
+								<a class="dropdown-item" href="#">HP</a>
+								<a class="dropdown-item" href="#">Lenovo</a>
+								<a class="dropdown-item" href="#">Macbook</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">xxx</a>
+							</div>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="#">KHUYẾN MÃI</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">DỊCH VỤ</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">LIÊN HỆ</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<div class="centerLayout">
+			<div style="height: 250px; background-color: #456;">[slide here]</div>
 		</div>
-		<div align="right" style="float:left; height: 80px;width:35%;">
-			<img src="Images/IMG_ChinhSach.png" width="100%" title="Chính sách">
+			
+		<div class="centerLayout" style="height: 300px;">
+			<div id="sidebar">
+				<h3>Danh Mục Sản Phẩm</h3>
+				<ul>
+					<li><a href="#">ASUS</a></li>
+					<li><a href="#">Dell</a></li>
+					<li><a href="#">HP</a></li>
+					<li><a href="#">Lenovo</a></li>
+					<li><a href="#">Macbook</a></li>
+				</ul>
+			</div>
+				
+			<div id="content">
+				[featured here]
+			</div>
+				
+			<div id="right">
+				[right here]
+			</div>
 		</div>
-	</div>
-	
-	<div id="menu">
-  <ul id="list">
-    <li><a href="#">Trang chủ</a></li>
-    <li><a href="#">Sản phẩm</a>
-      <ul class="sub-menu">
-        <li><a href="#asus">ASUS</a></li>
-        <li><a href="#dell">Dell</a></li>
-        <li><a href="#hp">HP</a></li>
-		<li><a href="#lenovo">Lenovo</a></li>
-		<li><a href="#acer">Acer</a></li>
-		<li><a href="#msi">MSI</a></li>
-      </ul>
-    </li>
-	<li><a href="#">Khuyến mãi</a></li>
-	<li><a href="#">Tin tức</a>
-		<ul class="sub-menu">
-        	<li><a href="#">Khuyến mãi</a></li>
-        	<li><a href="#">Công nghệ</a></li>
-		</ul>
-	</li>
-	<li><a href="#">Hỗ trợ</a>
-		<ul class="sub-menu">
-        	<li><a href="#">Bảo hành</a></li>
-        	<li><a href="#">Sửa chữa</a></li>
-		</ul>
-	</li>
-    <li><a href="#">Giới thiệu</a></li>
-    <li><a href="#">Liên hệ</a></li>
-  </ul>
-</div>
-	
-	<div style="width:100%;" title="Khuyến mãi hot">
-		<img style="width:100%" class="slide fade" src="Images/Slide_IMG1.png">
-		<img style="width:100%" class="slide fade" src="Images/Slide_IMG2.png">
-		<img style="width:100%" class="slide fade" src="Images/Slide_IMG3.jpg">
-	</div>
-	
-	<div id="left">
-	
-		<div class="menu_left">
-		<h3>Danh mục</h3>
-			<ul>
-				<li><a href="#asus">ASUS</a></li>
-				<li><a href="#dell">Dell</a></li>
-				<li><a href="#hp">HP</a></li>
-				<li><a href="#lenovo">Lenovo</a></li>
-				<li><a href="#acer">Acer</a></li>
-				<li><a href="#msi">MSI</a></li>				
-			</ul>
-		</div>
-	</div>
-	<div id="right">	
-		  <h2 style="color: green; width: 100%;margin-top: 0px;float: left" align="center">CHỌN THEO MỨC GIÁ</h2>
-		<div class="sanphamnoibat">
-			<div>
-				<a href="#"><img src="Images/IMG_510TR.png" width="70%"></a>
+				
+		<div class="centerLayout">
+			<div class="main" style="height: 300px; background-color: #fff; color: #000">
+				<p style="color: #000;">[main content here]</p>
+				<hr />
+				
+				<h3>row1</h3>
+				<hr />
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-3">clm1</div>
+						<div class="col-sm-3">clm2</div>
+						<div class="col-sm-3">clm3</div>
+						<div class="col-sm-3">clm4</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		
-		<div class="sanphamnoibat">
-			<div>
-				<a href="#"><img src="Images/IMG_1015TR.png" width="70%"></a>
-			</div>
-		</div>
-		<div class="sanphamnoibat">
-			<div>
-				<a href="#"><img src="Images/IMG_1520TR.png" width="70%"></a>
-			</div>
-		</div>
-		<div class="sanphamnoibat">
-			<div>
-				<a href="#"><img src="Images/IMG_20PTR.png" width="70%"></a>
-			</div>
-		</div>
-		
-		
-	</div>
-	<div id="thuonghieu" align="center" style="margin-top: 160px;">
-		<br>
-		<h2 align="center" style="color: green">HÃNG SẢN XUẤT</h2>
-		<img src="Images/IMG_Branch.png" style="width: 70%">
-	</div>
-	
-	<h2 id="spnb" style="color: green; width: 99%;margin-top: 62px;text-align: left;margin-left: 1%">Sản phẩm Nổi bật</h2>	
-	<hr style="margin-left: 1%;margin-right: 45px; ">
-	<div class="loaisanpham">
-		<div class="sanpham">
-			<img src="Images/asus1.jpg" style="width:100%;">		
-			
-			    <a href="Laptop_HP.html" style="font-size:22px;">HP A556UR</a><br />
-				<a style="text-align: center; font-size: 20px; color:blue">(Core i5, 4GB RAM, 1TB HDD, 15.6")<br/></a>
-				<a style="color: blue; font-size: 16px;text-decoration-line: line-through">13.000.000đ&nbsp;</a>
-				<a style="color:red;font-size:20px">12.999.000đ</a>
-		</div>
-		<div class="sanpham">
-			<img src="Images/dell1.jpg" style="width:100%;">		
-			
-			    <a href="Laptop_Dell.html" style="font-size:22px;">Delll 5559</a><br />
-				<a style="text-align: center; font-size: 20px; color:blue">(Core i7, 4GB RAM, 1TB HDD, 15.6")<br/></a>
-				<a style="color: blue; font-size: 16px;text-decoration-line: line-through">15.000.000đ&nbsp;</a>
-				<a style="color:red;font-size:20px">14.999.000đ</a>
-		</div>
-		<div class="sanpham">
-			<img src="Images/asus3.jpg" style="width: 100%;">		
-			
-			    <a href="Laptop_HP.html" style="font-size:22px;">HP A556UF</a><br />
-				<a style="text-align: center; font-size: 20px; color:blue">(Core i9, 16GB RAM, 500GB SSD, 17.3")<br/></a>
-				<a style="color: blue; font-size: 16px;text-decoration-line: line-through">20.000.000đ&nbsp;</a>
-				<a style="color:red;font-size:20px">19.999.000đ</a>
-		 	
-		</div>
-		<div class="sanpham">
-			<img src="Images/dell2.jpg" style="width: 100%;">		
-		
-			    <a href="Laptop_Dell.html" style="font-size:22px;">Dell 5570</a><br />
-				<a style="text-align: center; font-size: 20px; color:blue">(Core i5, 4GB RAM, 500GB HDD, 14.0")<br/></a>
-				<a style="color: blue; font-size: 16px;text-decoration-line: line-through">10.000.000đ&nbsp;</a>
-				<a style="color:red;font-size:20px">9.999.000đ</a>
-		 	
-		</div>
-	</div>
-	<h2 id="asus" style="color: green; width: 99%;margin-top: 0px;text-align: left;margin-left: 1%">ASUS</h2>	
-	<hr style="margin-left: 1%;margin-right: 45px; ">
-	<div class="loaisanpham">
-		<div class="sanpham">
-			<a href="#"><img src="Images/posterasus.jpg" style="width:100%;height: 100%"></a>		
-		</div>
-		<div class="sanpham">
-			<img src="Images/asus1.jpg" style="width:100%;">		
-			
-			    <a href="Laptop_ASUS.html" style="font-size:22px;">Asus A556UR</a><br />
-				<a style="text-align: center; font-size: 20px; color:blue">(Core I7,Ram 4Gb)<br/></a>
-				<a style="color: blue; font-size: 16px;text-decoration-line: line-through">10.119.000đ&nbsp;</a>
-				<a style="color:red;font-size:20px">10.095.000đ</a>
-		 	
-		</div>
-		<div class="sanpham">
-			<img src="Images/asus2.jpeg" style="width: 100%;">		
-			
-			    <a href="Laptop_ASUS.html" style="font-size:22px;">Asus A556UF</a><br />
-				<a style="text-align: center; font-size: 20px; color:blue">(Core I9,Ram 4Gb)<br/></a>
-				<a style="color: blue; font-size: 16px;text-decoration-line: line-through">12.119.000đ&nbsp;</a>
-				<a style="color:red;font-size:20px">11.095.000đ</a>
-		 	
-		</div>
-		<div class="sanpham">
-			<img src="Images/asus3.jpg" style="width: 100%;">		
-		
-			    <a href="Laptop_ASUS.html" style="font-size:22px;">Asus X542UA</a><br />
-				<a style="text-align: center; font-size: 20px; color:blue">(Core I3,Ram 4Gb)<br/></a>
-				<a style="color: blue; font-size: 16px;text-decoration-line: line-through">8.119.000đ&nbsp;</a>
-				<a style="color:red;font-size:20px">7.095.000đ</a>
-		 	
-		</div>
-	</div>
-	
-	<h2 id="dell" style="color: green; width: 99%;margin-top: 0px;text-align: left;margin-left: 1%">Dell</h2>
-	<hr style="margin-left: 1%;margin-right: 45px">
-	<div class="loaisanpham">
-		<div class="sanpham">
-			<a href="#"><img src="Images/posterdell.jpg" style="width:100%;height: 100%"></a>		
-		</div>	
-		<div class="sanpham">
-			<img src="Images/dell1.jpg" style="width:100%;">		
-			
-			    <a href="Laptop_Dell.html" style="font-size:22px;">Dell 5559</a><br />
-				<a style="text-align: center; font-size: 20px; color:blue">(Core I7,Ram 4Gb)<br/></a>
-				<a style="color: blue; font-size: 16px;text-decoration-line: line-through">15.119.000đ&nbsp;</a>
-				<a style="color:red;font-size:20px">14.95.000đ</a>
-		 	
-		</div>
-		<div class="sanpham">
-			<img src="Images/dell2.png" style="width: 100%;border:1px solid rgba(212,212,212,1.00)">		
-			
-			    <a href="Laptop_Dell.html" style="font-size:22px;">Dell 5570</a><br />
-				<a style="text-align: center; font-size: 20px; color:blue">(Core I5,Ram 4Gb)<br/></a>
-				<a style="color: blue; font-size: 16px;text-decoration-line: line-through">10.119.000đ&nbsp;</a>
-				<a style="color:red;font-size:20px">11.095.000đ</a>
-		 
-		</div>
-		<div class="sanpham">
-			<img src="Images/dell3.jpg" style="width: 100%;border:1px solid rgba(212,212,212,1.00)">		
-		
-			    <a href="Laptop_Dell.html" style="font-size:22px;">Dell 5568</a><br />
-				<a style="text-align: center; font-size: 20px; color:blue">(Core I7,Ram 4Gb)<br/></a>
-				<a style="color: blue; font-size: 16px;text-decoration-line: line-through">13.119.000đ&nbsp;</a>
-				<a style="color:red;font-size:20px">12.095.000đ</a>
-		
-		</div>
-	</div>
-	<h2 id="acer" style="color: green; width: 99%;margin-top: 0px;text-align: left;margin-left: 1%">Acer</h2>
-	<hr style="margin-left: 1%;margin-right: 45px; ">
-	<div class="loaisanpham">
-		<div class="sanpham">
-			<a href="#"><img src="Images/posteracer.jpg" style="width:100%;height: 100%"></a>		
-		</div>	
-		<div class="sanpham">
-			<img src="Images/acer1.jpg" style="width:100%;">		
-			
-			    <a href="Laptop_Acer.html" style="font-size:22px;">Acer E575</a><br />
-				<a style="text-align: center; font-size: 20px; color:blue">(Core I5,Ram 4Gb)<br/></a>
-				<a style="color: blue; font-size: 16px;text-decoration-line: line-through">10.119.000đ&nbsp;</a>
-				<a style="color:red;font-size:20px">9.095.000đ</a>
-		 	
-		</div>
-		<div class="sanpham">
-				<img src="Images/acer2.jpg" style="width: 100%;">		
-	      <a href="Laptop_Acer.html" style="font-size:22px;">Acer F575</a><br />
-				<a style="text-align: center; font-size: 20px; color:blue">(Core I7,Ram 4Gb)<br/></a>
-				<a style="color: blue; font-size: 16px;text-decoration-line: line-through">15.119.000đ&nbsp;</a>
-				<a style="color:red;font-size:20px">14.095.000đ</a>
-		 
-		</div>
-		<div class="sanpham">
-				<img src="Images/acer3.jpg" style="width: 100%;">		
-	      <a href="Laptop_Acer.html" style="font-size:22px;">Acer G575</a><br />
-				<a style="text-align: center; font-size: 20px; color:blue">(Core I9,Ram 4Gb)<br/></a>
-				<a style="color: blue; font-size: 16px;text-decoration-line: line-through">20.119.000đ&nbsp;</a>
-				<a style="color:red;font-size:20px">19.095.000đ</a>
-		 	
-		</div>
-	</div>
-	<br/>
-	
-	<h2 id="hp" style="color: green; width: 99%;margin-top: 0px;text-align: left;  margin-left: 1%">HP</h2>
-	<hr style="margin-left: 1%;margin-right: 45px; ">
-	<div class="loaisanpham">
-		<div class="sanpham">
-			<a href="#"><img src="Images/posterhp.jpg" style="width:100%;height: 100%"></a>
-		</div>
-		<div class="sanpham">
-			<img src="Images/hp1.jpg" style="width:100%;">		
-		
-			    <a href="Laptop_HP.html" style="font-size:22px;">HP G450</a><br />
-				<a style="text-align: center; font-size: 20px; color:blue">(Core I9,Ram 4Gb)<br/></a>
-				<a style="color: blue; font-size: 16px;text-decoration-line: line-through">20.119.000đ&nbsp;</a>
-				<a style="color:red;font-size:20px">19.095.000đ</a>
-		 
-		</div>
-		<div class="sanpham">
-			<img src="Images/hp2.jpg" style="width: 100%;">		
-			
-			    <a href="Laptop_HP.html" style="font-size:22px;">HP G470</a><br />
-				<a style="text-align: center; font-size: 20px; color:blue">(Core I7,Ram 4Gb)<br/></a>
-				<a style="color: blue; font-size: 16px;text-decoration-line: line-through">15.119.000đ&nbsp;</a>
-				<a style="color:red;font-size:20px">14.095.000đ</a>
-		 	
-		</div>
-		<div class="sanpham">
-			<img src="Images/hp3.jpg" style="width: 100%;">		
-		
-			    <a href="Laptop_HP.html" style="font-size:22px;">HP 460</a><br />
-				<a style="text-align: center; font-size: 20px; color:blue">(Core I5,Ram 4Gb)<br/></a>
-				<a style="color: blue; font-size: 16px;text-decoration-line: line-through">10.119.000đ&nbsp;</a>
-				<a style="color:red;font-size:20px">9.095.000đ</a>
-		 
-		</div>
-	</div>
-	<h2 id="lenovo" style="color: green; width: 99%;margin-top: 0px;text-align: left;margin-left: 1%">Lenovo</h2>
-	<hr style="margin-left: 1%;margin-right: 45px; ">
-	<div class="loaisanpham">	
-		<div class="sanpham">
-			<a href="#"><img src="Images/posterlenovo.jpg" style="width:100%;height: 100%"></a>
-		</div>	
-		<div class="sanpham">
-			<img src="Images/lenovo1.jpg" style="width:100%;">		
-			
-			    <a href="Laptop_Lenovo.html" style="font-size:22px;">Lenovo I320</a><br />
-				<a style="text-align: center; font-size: 20px; color:blue">(Core I5,Ram 4Gb)<br/></a>
-				<a style="color: blue; font-size: 16px;text-decoration-line: line-through">10.119.000đ&nbsp;</a>
-				<a style="color:red;font-size:20px">9.095.000đ</a>
-		 	
-		</div>
-		<div class="sanpham">
-		  <img src="Images/lenovo2.jpg" style="width: 100%;">		
-			    <a href="Laptop_Lenovo.html" style="font-size:22px;">Lenovo I530</a><br />
-				<a style="text-align: center; font-size: 20px; color:blue">(Core I7,Ram 4Gb)<br/></a>
-				<a style="color: blue; font-size: 16px;text-decoration-line: line-through">15.119.000đ&nbsp;</a>
-				<a style="color:red;font-size:20px">14.095.000đ</a>	 	
-	  </div>
-		<div class="sanpham">
-				<img src="Images/lenovo3.jpg" style="width: 100%;">			
-			    <a href="Laptop_Lenovo.html" style="font-size:22px;">Lenovo T480S</a><br />
-				<a style="text-align: center; font-size: 20px; color:blue">(Core I9,Ram 4Gb)<br/></a>
-				<a style="color: blue; font-size: 16px;text-decoration-line: line-through">20.119.000đ&nbsp;</a>
-				<a style="color:red;font-size:20px">19.95.000đ</a>	 
-	  </div>
-	</div>
-	<h2 id="msi" style="color: green; width: 99%;margin-top: 0px;text-align: left;margin-left: 1%">MSI</h2>
-	<hr style="margin-left: 1%;margin-right: 45px; ">
-	<div class="loaisanpham">
-		<div class="sanpham">
-			<a href="#"><img src="Images/posterMSI.jpg" style="width:100%;height: 100%"></a>		
-		</div>	
-		<div class="sanpham">
-				<img src="Images/msi1.jpg" style="width: 100%;)">			
-			    <a href="Laptop_MSI.html" style="font-size:22px;">MSI 113</a><br />
-				<a style="text-align: center; font-size: 20px; color:blue">(Core I9,Ram 4Gb)<br/></a>
-				<a style="color: blue; font-size: 16px;text-decoration-line: line-through">13.119.000đ&nbsp;</a>
-				<a style="color:red;font-size:20px">12.095.000đ</a>	 
-	  </div>
-		<div class="sanpham">
-				<img src="Images/msi2.jpg" style="width: 100%;">		
-			    <a href="Laptop_MSI.html" style="font-size:22px;">MSI 114</a><br />
-				<a style="text-align: center; font-size: 20px; color:blue">(Core I5,Ram 4Gb)<br/></a>
-				<a style="color: blue; font-size: 16px;text-decoration-line: line-through">14.119.000đ&nbsp;</a>
-				<a style="color:red;font-size:20px">13.095.000đ</a>	
-	  </div>
-		<div class="sanpham">
-			<img src="Images/msi3.png" style="width: 100%;">			
-			    <a href="Laptop_MSI.html" style="font-size:22px;">MSI 115</a><br />
-				<a style="text-align: center; font-size: 20px; color:blue">(Core I3,Ram 4Gb)<br/></a>
-				<a style="color: blue; font-size: 16px;text-decoration-line: line-through">15.119.000đ&nbsp;</a>
-				<a style="color:red;font-size:20px">14.095.000đ</a>	 	
-	  </div>
-	</div>
-	
-	<h2 align="center"><a href="#"><img src="Images/IMG_BackToTop.png" style="width: 1%;" /> Quay về Đầu trang</a></h2>
-	
-	<div id="footer">
 		<footer>
-				&copy; 2018 Công ty TNHH TM &amp; DV PLH Vietnam
-			<br />
-			Địa chỉ: 1, Võ Văn Ngân, Thủ Đức
-			<br />
-			Điện thoại: 8425777777; email: contact@plh.com.vn
-			<br />
+			<div class="centerLayout">
+				[footer here]
+			</div>
 		</footer>
-	</div>
-	
-<script>
-		// SLIDE
-		//var slideIndex = 1;
-		//var slideIndex=0;
-		//Show(slideIndex);
-		//Show();
-		/*
-		function Swipe(n)
-		{
-  			Show(slideIndex += n);
-		}
-
-		
-		function Show(n)
-		{
-  			var i;
-  			var x = document.getElementsByClassName("slide");
-			if (n < 1)
-			{
-				slideIndex = x.length
-			}
-  			if (n > x.length)
-  			{
-	  			slideIndex = 1
-			}
-  			for (i = 0; i < x.length; i++)
-			{
-     			x[i].style.display = "none";  
-  			}
-  			x[slideIndex-1].style.display = "block";  
-		}
-		*/
-		var slideIndex = 0;
-		Show();
-
-		function Show()
-		{
-    		var i;
-    		var x = document.getElementsByClassName("slide");
-    		for (i = 0; i < x.length; i++)
-			{
-				x[i].style.display = "none"; 
-    		}
-    		slideIndex++;
-    		if (slideIndex > x.length)
-			{
-				slideIndex = 1
-			} 
-    		x[slideIndex-1].style.display = "block"; 
-			setTimeout(Show, 2000);
-		}
-	
-	//Sticky menu
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("menu");
-
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-	</script>
-</body>
+	</body>
 </html>
