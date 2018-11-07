@@ -65,7 +65,7 @@
 
     <body class="text-center">
         <form class="form-signin border border-primary rounded">
-            <img class="mb-4" src="Images/IMG_Company_Blur.png" alt="" width="50%" height="auto">
+            <img class="mb-4" src="images/IMG_Company_Blur.png" alt="" width="50%" height="auto">
             <h1 class="h3 mb-3 font-weight-normal" style="color: #C00000">Đăng nhập tài khoản</h1>
             <label for="inputEmail" class="sr-only">Tên người dùng</label>
             <input type="email" id="inputEmail" class="form-control" placeholder="Tên người dùng" required autofocus>

@@ -65,7 +65,7 @@
 	<body onload="startTime()">
 		<header>
 			<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="height: 60px; background-color: #0063B1">
-  <div style="width: 215px;"><img src="Images/IMG_Company_Blur.png" alt="Branch" style="width: 90%; height: auto;"></div>
+  <div style="width: 215px;"><img src="images/IMG_Company_Blur.png" alt="Branch" style="width: 90%; height: auto;"></div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
