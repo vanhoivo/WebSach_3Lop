@@ -1,11 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
-
 <!DOCTYPE html>
 <html>
     <head>
             <meta charset="utf-8">
-            <title>Sign In</title>
+            <title>Đăng nhập nội bộ</title>
             
             <!--Responsive-->
             <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -63,10 +62,10 @@
             </script>
     </head>
 
-    <body class="text-center">
-        <form class="form-signin border border-primary rounded">
+    <body class="text-center" style="background-color: #123">
+        <form class="form-signin border border-primary rounded" style="background-color:lightgrey;">
             <img class="mb-4" src="images/IMG_Company_Blur.png" alt="" width="50%" height="auto">
-            <h1 class="h3 mb-3 font-weight-normal" style="color: #C00000">Đăng nhập tài khoản</h1>
+            <h1 class="h3 mb-3 font-weight-normal" style="color: #C00000">Đăng nhập nội bộ</h1>
             <label for="inputEmail" class="sr-only">Tên người dùng</label>
             <input type="email" id="inputEmail" class="form-control" placeholder="Tên người dùng" required autofocus>
             <br />
@@ -78,10 +77,6 @@
                 <label><input type="checkbox" value="remember-me" class="text-center"> Ghi nhớ</label>
             </div>
             <button class="btn btn-lg btn-primary btn-block" type="submit">Đăng nhập</button>
-            <br />
-            <a href="SignUp.jsp">Đăng kí</a>
-            <hr />
-            <a href="SignIn_Admin.jsp" class="btn btn-outline-success">NỘI BỘ</a>
         </form>
     </body>
 </html>
