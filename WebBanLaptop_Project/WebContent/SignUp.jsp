@@ -76,7 +76,7 @@
             <br />
             <button class="btn btn-lg btn-primary btn-block" type="submit">Đăng kí</button>
             <hr />
-            <a href="SignIn.html">ĐĂNG NHẬP</a>
+            <a href="SignIn.jsp">ĐĂNG NHẬP</a>
         </form>
     </body>
 </html>
