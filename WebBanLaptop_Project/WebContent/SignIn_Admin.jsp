@@ -76,7 +76,7 @@
                 <br />
                 <label><input type="checkbox" value="remember-me" class="text-center"> Ghi nhớ</label>
             </div>
-            <button class="btn btn-lg btn-primary btn-block" type="submit">Đăng nhập</button>
+            <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="window.location.href='Admin_SP.jsp';">Đăng nhập</button>
         </form>
     </body>
 </html>

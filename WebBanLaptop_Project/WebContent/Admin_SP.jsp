@@ -59,6 +59,18 @@
                 reader.readAsDataURL(input.files[0]);
             }
       }
+      function readURL2(input) {
+          if (input.files && input.files[0]) {
+              var reader = new FileReader();
+
+              reader.onload = function (e) {
+                  $('#Hinh2')
+                      .attr('src', e.target.result);
+              };
+
+              reader.readAsDataURL(input.files[0]);
+          }
+    }
     </script>
 	</head>
 	
@@ -105,26 +117,26 @@
 			<div id="left">
 				<ul class="nav flex-column">
     <li class="nav-item">
-      <a class="nav-link" href="Admin_NV.html">Nhân Viên</a>
+      <a class="nav-link" href="Admin_NV.jsp">Nhân Viên</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="Admin_KH.html">Khách hàng</a>
+      <a class="nav-link" href="Admin_KH.jsp">Khách hàng</a>
     </li>
     <li class="nav-item active">
-      <a class="nav-link" href="Admin_SP.html" style="color: white;">Sản phẩm</a>
+      <a class="nav-link" href="Admin_SP.jsp" style="color: white;">Sản phẩm</a>
     </li>
 			<li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Hóa đơn
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-          <a class="dropdown-item" href="Admin_HD.html">Hóa đơn</a>
+          <a class="dropdown-item" href="Admin_HD.jsp">Hóa đơn</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="Admin_CTHD.html">Chi tiết hóa đơn</a>
+          <a class="dropdown-item" href="Admin_CTHD.jsp">Chi tiết hóa đơn</a>
         </div>
       </li>		
     <li class="nav-item">
-      <a class="nav-link disabled" href="Admin_ND.html">Người dùng</a>
+      <a class="nav-link disabled" href="Admin_ND.jsp">Người dùng</a>
     </li>
   </ul>
 			</div>
@@ -348,9 +360,9 @@
                               <div class="form-group row">
                                 <label for="ChonHinh" class="col-sm-2 col-form-label">Hình ảnh</label>
                                 <div class="col-sm-10" id="ChonHinh">
-                                  <input type='file' onchange="readURL(this);" />
+                                  <input type='file' onchange="readURL2(this);" />
                                   <br />
-                                  <img id="Hinh" src="" alt="HinhAnh" style="width: 100%; height: auto;"/>
+                                  <img id="Hinh2" src="" alt="HinhAnh" style="width: 100%; height: auto;"/>
                                 </div>
                             </div>
                             </form>

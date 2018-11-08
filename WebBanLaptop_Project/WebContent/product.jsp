@@ -11,7 +11,7 @@
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<title>Chi tiáº¿t sáº£n pháº©m</title>
+	<title>Chi tiết sản phẩm</title>
 	<style>
 		.product_category {
    		font-size: 12px;
@@ -70,9 +70,9 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse navbar-ex1-collapse"style="padding-left: 0px">
 				<ul class="nav navbar-nav">
-					<li><a href="index.jsp">TRANG CHá»¦</a></li>
-					<li><a href="gioithieu.jsp">GIá»I THIá»U</a></li>
-					<li><a href="lienhe.jsp">LIÃN Há»</a></li>
+					<li><a href="index.jsp">TRANG CHỦ</a></li>
+					<li><a href="gioithieu.jsp">GIỚI THIỆU</a></li>
+					<li><a href="lienhe.jsp">LIÊN HỆ</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
 		</div>
@@ -106,19 +106,19 @@
 						<label>Ram:</label> <span>8Gb</span>
 						</li>
 						<li>
-						<label>á» cá»©ng:</label> <span>SSD,128Gb</span>
+						<label>Ổ cứng:</label> <span>SSD,128Gb</span>
 						</li>
 						<li>
-						<label>MÃ n hÃ¬nh:</label> <span>	13.3 inch, 1440 x 900 pixels</span>
+						<label>Màn hình:</label> <span>	13.3 inch, 1440 x 900 pixels</span>
 						</li>
 						<li>
-						<label>Card mÃ n hÃ¬nh:</label> <span>Intel HD Graphics 6000</span>
+						<label>Card màn hình:</label> <span>Intel HD Graphics 6000</span>
 						</li>
 						<li>
-						<label>Há» Äiá»u hÃ nh:</label> <span>Mac Os</span>
+						<label>Hệ điều hành:</label> <span>Mac Os</span>
 						</li>
 						<li>
-						<label>Trá»ng lÆ°á»£ng:</label> <span>1,35kg</span>
+						<label>Trọng lượng:</label> <span>1,35kg</span>
 						</li>
 					</ul>
 				</div>
@@ -131,7 +131,7 @@
 		</div>
 	</div>
 	<div class="container">
-		<h3>CÃ³ thá» báº¡n quan tÃ¢m?</h3>
+		<h3>Có thể bạn quan tâm?</h3>
 		<div id="carousel-id" class="carousel slide" data-ride="carousel" style="height: 410px">
 		<ol class="carousel-indicators">
 			<li data-target="#carousel-id" data-slide-to="0" class="active"></li>
@@ -151,8 +151,8 @@
 								ASUS AX
 							</p>
 							<p>
-								<a href="#" class="btn btn-primary">Chá»n mua</a>
-								<a href="#" class="btn btn-default">Chi tiáº¿t</a>
+								<a href="#" class="btn btn-primary">Chọn mua</a>
+								<a href="#" class="btn btn-default">Chi tiết</a>
 							</p>
 						</div>
 					</div>
@@ -166,8 +166,8 @@
 								ASUS AX
 							</p>
 							<p>
-								<a href="#" class="btn btn-primary">Chá»n mua</a>
-								<a href="#" class="btn btn-default">Chi tiáº¿t</a>
+								<a href="#" class="btn btn-primary">Chọn mua</a>
+								<a href="#" class="btn btn-default">Chi tiết</a>
 							</p>
 						</div>
 					</div>
@@ -181,8 +181,8 @@
 								ASUS AX
 							</p>
 							<p>
-								<a href="#" class="btn btn-primary">Chá»n mua</a>
-								<a href="#" class="btn btn-default">Chi tiáº¿t</a>
+								<a href="#" class="btn btn-primary">Chọn mua</a>
+								<a href="#" class="btn btn-default">Chi tiết</a>
 							</p>
 						</div>
 					</div>
@@ -202,8 +202,8 @@
 								ASUS AX
 							</p>
 							<p>
-								<a href="#" class="btn btn-primary">Chá»n mua</a>
-								<a href="#" class="btn btn-default">Chi tiáº¿t</a>
+								<a href="#" class="btn btn-primary">Chọn mua</a>
+								<a href="#" class="btn btn-default">Chi tiết</a>
 							</p>
 						</div>
 					</div>
@@ -217,8 +217,8 @@
 								ASUS AX
 							</p>
 							<p>
-								<a href="#" class="btn btn-primary">Chá»n mua</a>
-								<a href="#" class="btn btn-default">Chi tiáº¿t</a>
+								<a href="#" class="btn btn-primary">Chọn mua</a>
+								<a href="#" class="btn btn-default">Chi tiết</a>
 							</p>
 						</div>
 					</div>
@@ -232,8 +232,8 @@
 								ASUS AX
 							</p>
 							<p>
-								<a href="#" class="btn btn-primary">Chá»n mua</a>
-								<a href="#" class="btn btn-default">Chi tiáº¿t</a>
+								<a href="#" class="btn btn-primary">Chọn mua</a>
+								<a href="#" class="btn btn-default">Chi tiết</a>
 							</p>
 						</div>
 					</div>
@@ -254,8 +254,8 @@
 								ASUS AX
 							</p>
 							<p>
-								<a href="#" class="btn btn-primary">Chá»n mua</a>
-								<a href="#" class="btn btn-default">Chi tiáº¿t</a>
+								<a href="#" class="btn btn-primary">Chọn mua</a>
+								<a href="#" class="btn btn-default">Chi tiết</a>
 							</p>
 						</div>
 					</div>
@@ -269,8 +269,8 @@
 								ASUS AX
 							</p>
 							<p>
-								<a href="#" class="btn btn-primary">Chá»n mua</a>
-								<a href="#" class="btn btn-default">Chi tiáº¿t</a>
+								<a href="#" class="btn btn-primary">Chọn mua</a>
+								<a href="#" class="btn btn-default">Chi tiết</a>
 							</p>
 						</div>
 					</div>
@@ -284,8 +284,8 @@
 								ASUS AX
 							</p>
 							<p>
-								<a href="#" class="btn btn-primary">Chá»n mua</a>
-								<a href="#" class="btn btn-default">Chi tiáº¿t</a>
+								<a href="#" class="btn btn-primary">Chọn mua</a>
+								<a href="#" class="btn btn-default">Chi tiết</a>
 							</p>
 						</div>
 					</div>
@@ -307,23 +307,23 @@
     <div class="footer-copyright container" style="background-color: #212529;color:  #6c757d;margin-top: 10px">
     	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding-top: 10px;">  		  
     	PLH Store<br>
-    	Sá» 1, VÃµ VÄn NgÃ¢n, Linh Chiá»u, Thá»§ Äá»©c, TP Há» ChÃ­ Minh<br>
-    	Äiá»n thoáº¡i:0767 767 767<br>
+    	Số 1, Võ Văn Ngân, Linh Chiểu, Thủ Đức, TP Hồ Chí Minh<br>
+    	Điện thoại:0767 767 767<br>
     	Email:plh@gmail.com<br>
-    	<p>Copyright Â© (2018) PLH Store</p>
+    	<p>Copyright © (2018) PLH Store</p>
     </div>
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" >
     	<nav class="navbar" role="navigation">
     				<ul class="nav navbar-nav" style="float: right;">
-    					<li><a href="gioithieu.jsp">Giá»i thiá»u</a></li>
+    					<li><a href="gioithieu.jsp">Giới thiệu</a></li>
     					<li style="padding-top: 15px">|</li>
-    					<li><a href="lienhe.jsp">LiÃªn há»</a></li>
+    					<li><a href="lienhe.jsp">Liên hệ</a></li>
     				</ul>
     	</nav>
     	    	
     </div>
     </div>
     <!-- Copyright -->
-    
+
   </footer>
 </html>

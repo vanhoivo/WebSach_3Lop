@@ -72,9 +72,9 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse navbar-ex1-collapse"style="padding-left: 0px">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.jsp">TRANG CHá»¦</a></li>
-					<li><a href="gioithieu.jsp">GIá»I THIá»U</a></li>
-					<li><a href="lienhe.jsp">LIÃN Há»</a></li>
+					<li class="active"><a href="index.jsp">TRANG CHỦ</a></li>
+					<li><a href="gioithieu.jsp">GIỚI THIỆU</a></li>
+					<li><a href="lienhe.jsp">LIÊN HỆ</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
 		</div>
@@ -85,7 +85,7 @@
 		<!-- /start catalog-->
 		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="padding-left: 0px">
 			<div class="list-group">
-				<a href=""class="list-group-item" style="background-color: #44bbb6;">DANH Má»¤C</a>
+				<a href=""class="list-group-item" style="background-color: #44bbb6;">DANH MỤC</a>
 				<a href=""class="list-group-item list-group-item-info">ASUS</a>
 				<a href="" class="list-group-item list-group-item-info">DELL</a>
 				<a href="" class="list-group-item list-group-item-info">HP</a>
@@ -106,7 +106,7 @@
 					<div class="item" style="height: 250px;">
 					<div class="carousel-caption col-lg-3">
 
-						<h1>TÆ°ng bá»«ng khuyáº¿n mÃ£i</h1>
+						<h1>Tưng bừng khuyến mãi</h1>
 						<a class="btn btn-lg btn-danger" href="#" role="button">Mua ngay</a>
 					</div>
 					<img  src="images/1.jpg"  style="display: block;width: 50%;height: 100%;float: right;">
@@ -114,7 +114,7 @@
 					<div class="item" style="height: 250px;">
 					<div class="carousel-caption col-lg-3">
 
-						<h1>TÆ°ng bá»«ng khuyá»n mÃ£i</h1>
+						<h1>Tưng bừng khuyễn mãi</h1>
 						<a class="btn btn-lg btn-danger" href="#" role="button">Mua ngay</a>
 					</div>
 					<img  src="images/1.jpg"  style="display: block;width: 50%;height: 100%;float: right;">
@@ -123,7 +123,7 @@
 					<div class="item active" style="height: 250px;">
 					<div class="carousel-caption col-lg-3">
 
-						<h1>TÆ°ng bá»«ng khuyáº¿n mÃ£i</h1>
+						<h1>Tưng bừng khuyến mãi</h1>
 						<a class="btn btn-lg btn-danger" href="#" role="button">Mua Ngay</a>
 					</div>
 					<img  src="images/1.jpg"  style="display: block;width: 50%;height: 100%;float: right;">
@@ -135,41 +135,41 @@
 		</div>
 		<!-- /end slide-->
 	</div>
-	<!-- start chÃ­nh sÃ¡ch -->
-	<!-- start chÃ­nh sÃ¡ch -->
+	<!-- start chính sách -->
+	<!-- start chính sách -->
 	<div class="row bg-info" style="height: 100px;margin-top: 20px">	
 					<div class="col-lg-3 items">
 						<div class="icon"><img src="images/char_1.png" alt=""></div>
 						<div class="char_content">
-							<div class="char_title">Miá»n phÃ­</div>
-							<div class="char_subtitle">váº­n chuyá»n</div>
+							<div class="char_title">Miễn phí</div>
+							<div class="char_subtitle">vận chuyển</div>
 						</div>
 					</div>
 
 					<div class="col-lg-3 items">
 						<div class="icon"><img src="images/char_2.png" alt=""></div>
 						<div class="char_content">
-							<div class="char_title">HoÃ n tráº£</div>
-							<div class="char_subtitle">dá» dÃ ng</div>
+							<div class="char_title">Hoàn trả</div>
+							<div class="char_subtitle">dễ dàng</div>
 						</div>
 					</div>
 					<div class="col-lg-3 items">
 						<div class="icon"><img src="images/char_3.png" alt=""></div>
 						<div class="char_content">
-							<div class="char_title">Thanh toÃ¡n</div>
-							<div class="char_subtitle">nhanh chÃ³ng</div>
+							<div class="char_title">Thanh toán</div>
+							<div class="char_subtitle">nhanh chóng</div>
 						</div>
 					</div>
 					<div class="col-lg-3 items">
 					<div class="icon"><img src="images/char_4.png" alt=""></div>
 						<div class="char_content">
-							<div class="char_title">Khuyáº¿n mÃ£i</div>
-							<div class="char_subtitle">siÃªu khá»§ng</div>
+							<div class="char_title">Khuyến mãi</div>
+							<div class="char_subtitle">siêu khủng</div>
 						</div>	
 					</div>
 				<!-- Char. Item -->	
 	</div>
-	<!-- /end chÃ­nh sÃ¡ch -->
+	<!-- /end chính sách -->
 	<div class="row">
 	<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="margin-top: 10px;padding-left: 0px">
 		<div style="height: 300px">
@@ -178,7 +178,7 @@
 		<div style="border: 3px solid #99ccff;border-radius: 10px; margin-top: 10px;">
 			<form>
 				<ul>
-						<h4>GiÃ¡</h4>
+						<h4>Giá</h4>
 				<li style="list-style: none">
 	   			 <div class="radio">
 	      			<label><input type="radio" name="<5000000"><5000000</label>
@@ -264,7 +264,7 @@
 		</div>
 		<div style="border: 3px solid #99ccff;border-radius: 10px;margin-top: 10px">
 		<ul>
-			<h4>Dung lÆ°á»£ng á» cá»©ng</h4>
+			<h4>Dung lượng ổ cứng</h4>
 			<li style="list-style: none">
 				<div class="radio">
 	      			<label><input type="radio" name="120GB">120GB</label>
@@ -312,8 +312,8 @@
 								ASUS AX
 							</p>
 							<p>
-								<a href="Cart.jsp" class="btn btn-primary">Chá»n mua</a>
-								<a href="product.jsp" class="btn btn-default">Chi tiáº¿t</a>
+								<a href="Cart.jsp" class="btn btn-primary">Chọn mua</a>
+								<a href="product.jsp" class="btn btn-default">Chi tiết</a>
 							</p>
 						</div>
 					</div>
@@ -327,8 +327,8 @@
 								ASUS AX
 							</p>
 							<p>
-								<a href="#" class="btn btn-primary">Chá»n mua</a>
-								<a href="#" class="btn btn-default">Chi tiáº¿t</a>
+								<a href="#" class="btn btn-primary">Chọn mua</a>
+								<a href="#" class="btn btn-default">Chi tiết</a>
 							</p>
 						</div>
 					</div>
@@ -342,8 +342,8 @@
 								ASUS AX
 							</p>
 							<p>
-								<a href="#" class="btn btn-primary">Chá»n mua</a>
-								<a href="#" class="btn btn-default">Chi tiáº¿t</a>
+								<a href="#" class="btn btn-primary">Chọn mua</a>
+								<a href="#" class="btn btn-default">Chi tiết</a>
 							</p>
 						</div>
 					</div>
@@ -357,70 +357,8 @@
 								ASUS AX
 							</p>
 							<p>
-								<a href="#" class="btn btn-primary">Chá»n mua</a>
-								<a href="#" class="btn btn-default">Chi tiáº¿t</a>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product_item">
-					<div class="thumbnail">
-						<img src="images/1.jpg" alt="">
-						<div class="caption text-center">
-							<h3>$700</h3>
-							<p>
-								ASUS AX
-							</p>
-							<p>
-								<a href="Cart.jsp" class="btn btn-primary">Chá»n mua</a>
-								<a href="product.jsp" class="btn btn-default">Chi tiáº¿t</a>
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product_item">
-					<div class="thumbnail">
-						<img src="images/1.jpg" alt="">
-						<div class="caption text-center">
-							<h3>$700</h3>
-							<p>
-								ASUS AX
-							</p>
-							<p>
-								<a href="#" class="btn btn-primary">Chá»n mua</a>
-								<a href="#" class="btn btn-default">Chi tiáº¿t</a>
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product_item">
-					<div class="thumbnail">
-						<img src="images/1.jpg" alt="">
-						<div class="caption text-center">
-							<h3>$700</h3>
-							<p>
-								ASUS AX
-							</p>
-							<p>
-								<a href="#" class="btn btn-primary">Chá»n mua</a>
-								<a href="#" class="btn btn-default">Chi tiáº¿t</a>
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product_item">
-					<div class="thumbnail">
-						<img src="images/1.jpg" alt="">
-						<div class="caption text-center">
-							<h3>$700</h3>
-							<p>
-								ASUS AX
-							</p>
-							<p>
-								<a href="#" class="btn btn-primary">Chá»n mua</a>
-								<a href="#" class="btn btn-default">Chi tiáº¿t</a>
+								<a href="#" class="btn btn-primary">Chọn mua</a>
+								<a href="#" class="btn btn-default">Chi tiết</a>
 							</p>
 						</div>
 					</div>
@@ -436,8 +374,8 @@
 								ASUS AX
 							</p>
 							<p>
-								<a href="Cart.jsp" class="btn btn-primary">Chá»n mua</a>
-								<a href="product.jsp" class="btn btn-default">Chi tiáº¿t</a>
+								<a href="Cart.jsp" class="btn btn-primary">Chọn mua</a>
+								<a href="product.jsp" class="btn btn-default">Chi tiết</a>
 							</p>
 						</div>
 					</div>
@@ -451,8 +389,8 @@
 								ASUS AX
 							</p>
 							<p>
-								<a href="#" class="btn btn-primary">Chá»n mua</a>
-								<a href="#" class="btn btn-default">Chi tiáº¿t</a>
+								<a href="#" class="btn btn-primary">Chọn mua</a>
+								<a href="#" class="btn btn-default">Chi tiết</a>
 							</p>
 						</div>
 					</div>
@@ -466,8 +404,8 @@
 								ASUS AX
 							</p>
 							<p>
-								<a href="#" class="btn btn-primary">Chá»n mua</a>
-								<a href="#" class="btn btn-default">Chi tiáº¿t</a>
+								<a href="#" class="btn btn-primary">Chọn mua</a>
+								<a href="#" class="btn btn-default">Chi tiết</a>
 							</p>
 						</div>
 					</div>
@@ -481,8 +419,70 @@
 								ASUS AX
 							</p>
 							<p>
-								<a href="#" class="btn btn-primary">Chá»n mua</a>
-								<a href="#" class="btn btn-default">Chi tiáº¿t</a>
+								<a href="#" class="btn btn-primary">Chọn mua</a>
+								<a href="#" class="btn btn-default">Chi tiết</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product_item">
+					<div class="thumbnail">
+						<img src="images/1.jpg" alt="">
+						<div class="caption text-center">
+							<h3>$700</h3>
+							<p>
+								ASUS AX
+							</p>
+							<p>
+								<a href="Cart.jsp" class="btn btn-primary">Chọn mua</a>
+								<a href="product.jsp" class="btn btn-default">Chi tiết</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product_item">
+					<div class="thumbnail">
+						<img src="images/1.jpg" alt="">
+						<div class="caption text-center">
+							<h3>$700</h3>
+							<p>
+								ASUS AX
+							</p>
+							<p>
+								<a href="#" class="btn btn-primary">Chọn mua</a>
+								<a href="#" class="btn btn-default">Chi tiết</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product_item">
+					<div class="thumbnail">
+						<img src="images/1.jpg" alt="">
+						<div class="caption text-center">
+							<h3>$700</h3>
+							<p>
+								ASUS AX
+							</p>
+							<p>
+								<a href="#" class="btn btn-primary">Chọn mua</a>
+								<a href="#" class="btn btn-default">Chi tiết</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product_item">
+					<div class="thumbnail">
+						<img src="images/1.jpg" alt="">
+						<div class="caption text-center">
+							<h3>$700</h3>
+							<p>
+								ASUS AX
+							</p>
+							<p>
+								<a href="#" class="btn btn-primary">Chọn mua</a>
+								<a href="#" class="btn btn-default">Chi tiết</a>
 							</p>
 						</div>
 					</div>
@@ -501,17 +501,17 @@
     	<div class="row" style="background-color: #212529;">
     	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding-top: 5px;">  		  
     	PLH Store<br>
-    	Sá» 1, VÃµ VÄn NgÃ¢n, Linh Chiá»u, Thá»§ Äá»©c, TP Há» ChÃ­ Minh<br>
-    	Äiá»n thoáº¡i:0767 767 767<br>
+    	Số 1, Võ Văn Ngân, Linh Chiểu, Thủ Đức, TP Hồ Chí Minh<br>
+    	Điện thoại:0767 767 767<br>
     	Email:plh@gmail.com<br>
-    	<p>Copyright Â© (2018) PLH Store</p>
+    	<p>Copyright © (2018) PLH Store</p>
     </div>
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" >
     	<nav class="navbar" role="navigation">
     				<ul class="nav navbar-nav" style="float: right;">
-    					<li><a href="gioithieu.jsp">Giá»i thiá»u</a></li>
+    					<li><a href="gioithieu.jsp">Giới thiệu</a></li>
     					<li style="padding-top: 15px">|</li>
-    					<li><a href="lienhe.jsp">LiÃªn há»</a></li>
+    					<li><a href="lienhe.jsp">Liên hệ</a></li>
     				</ul>
     	</nav>
     	    	
